@@ -34,4 +34,8 @@ class User < ApplicationRecord
   def self?(assign)
     self.id == assign.user_id
   end
+
+  # def current_user?(user)
+  #   self.id == current_user.id
+  # end
 end
